@@ -7,7 +7,7 @@ Predicts whether an individual is creditworthy using past financial data.
 ## Dataset
 "Give Me Some Credit" (Kaggle) – 150,000 records, 6.7% defaulters.
 Target column: `SeriousDlqin2yrs` (1 = risky, 0 = good).
-
+Download `cs-training.csv` from https://www.kaggle.com/c/GiveMeSomeCredit/data and place it in the project folder.
 ## Approach
 - **Feature engineering:** total late payments, 90-day-late flag, income per person, debt burden, missing-income flag, outlier capping
 - **Models:** Logistic Regression, Decision Tree, Random Forest (class-weight balanced)
